@@ -99,3 +99,23 @@ Tier A is a genuinely good promo because the real app does the heavy lifting. Mo
 - Build script: `build.py` in the edit sandbox (re-creatable from this pack). Inputs: rec1.mp4, rec2.mp4, s1.png, s4.png, avatar.jpg, vo1-6.wav.
 
 Known limits: the onboarding tooltips ("Skip / Next") are visible in some app shots because they are in the recording. A re-record with the guide dismissed removes them. The square 1:1 cut was not produced.
+
+## 11. Wordless cut (app-intro style)
+
+Built 2026-10-14 from the same assets plus `nihol/footage/rec3.mp4` (the dial drag from 10:00 to 55:00 with the plant preview growing). No narration, one headline per section, soft placeholder music pad, 28.6 s, 1080×1920. Cost: 0 credits.
+
+| Time | Section | Headline | Source |
+|---|---|---|---|
+| 0-3.5 | Open | Put the phone aside. | logo on brand green, gentle sway |
+| 3.1-8.6 | Mechanic | Set the time. / Watch it grow. | rec3 full, last frame held |
+| 8.2-13.2 | Reward | Unlock rare plants. | rec1 25.6 s |
+| 12.8-17.8 | Garden | Build your garden. | rec2 9.6 s |
+| 17.4-21.4 | Progress | Keep your streak. | rec2 22.2 s |
+| 21.0-24.5 | Fit | Uzbek · Russian · English | rec2 5.4 s |
+| 24.1-28.6 | Close | NIHOL / Grow while you study. / link | logo card |
+
+Transitions: iris open, slide left, fade, slide up, fade, iris open. Every phone section has a slow 3.5 percent push-in. Headlines slide up and fade in over half a second.
+
+Music: a synthesised pad with a light pluck line, placeholder only, mixed at about -19 LUFS. Replace with a licensed track before publishing. No real-world impact claims anywhere, by the author's instruction.
+
+Build script: `build_wordless.py` in the edit sandbox.
