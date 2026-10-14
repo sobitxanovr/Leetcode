@@ -28,7 +28,7 @@ One sitting, one tree. The video follows a single student from distraction to a 
 | Beat | Time | Narration | On screen |
 |---|---|---|---|
 | 1 Hook | 0-5 | "Your phone is the reason your to-do list is still a list." | Illustration: student at desk, phone buzzing, a dozen notification bubbles crowding the frame. Hard cut to black. |
-| 2 Reveal | 5-10 | "This is Nihol. Plant a sapling inside Telegram, and it grows every minute you stay focused." | Real app screen: the home view with the sapling. Phone frame in the centre, soft leaf-green glow. Logo top-left. |
+| 2 Reveal | 5-10 | "This is Nihol. Plant a sapling inside Telegram, and it grows every minute you stay focused." (voice spelling: Nihhol) | Real app screen: the home view with the sapling. Phone frame in the centre, soft leaf-green glow. Logo top-left. |
 | 3 Mechanic | 10-15 | "Set the time. Pick your plant. Hit Plant, and put the phone down." | Real app screens, three quick taps: task entry, timer dial, start button. Screen-recorded, each held 1.5 s. |
 | 4 Stakes | 15-20 | "Leave the app, and your sapling dies. Stay, and one hour becomes a full tree." | Split frame: left, the sapling drooping as a thumb reaches for the phone; right, the sapling in full leaf. Illustration over app UI. |
 | 5 Payoff | 20-25 | "Every session goes into your garden. Daily streaks unlock rare plants." | Real app screen: the garden or history view with a week of trees. If the app has streaks or stats, show them here. |
@@ -94,7 +94,7 @@ Tier A is a genuinely good promo because the real app does the heavy lifting. Mo
 - Palette switched to the brand: deep green background, orange accents, mint and cream, taken from the bot avatar.
 - Phone frame: 540×1172 rounded device with bezel and shadow; the 384×834 recordings scale into it cleanly.
 - Footage moments used: timer screen (rec2 24.0 s), dial / plant picker / Plant button (rec1 15.2, 25.4, 32.6 s), garden (rec2 9.6 s), streak rewards (rec1 25.6 s). The two recordings are never joined end to end; each moment sits in its own beat with a crossfade.
-- Narration spelled "Nahol" for the voice engine so the name is pronounced with the short first vowel; on-screen text keeps "Nihol".
+- Narration spelled "Nihhol" for the voice engine; the author picked that take by ear from three spellings. On-screen text keeps "Nihol". The closing take had a 3-second internal pause, which was cut out in the edit.
 - Beat lengths are derived from each trimmed narration line plus 0.55 s, so lines never overlap; beats crossfade over 0.3 s.
 - Build script: `build.py` in the edit sandbox (re-creatable from this pack). Inputs: rec1.mp4, rec2.mp4, s1.png, s4.png, avatar.jpg, vo1-6.wav.
 
