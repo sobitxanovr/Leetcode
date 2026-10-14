@@ -1,6 +1,8 @@
 # Nihol — promotional video pack
 
-Nihol is a Telegram mini app for focus and productivity: start a session, a sapling grows while you stay off your phone, break the session and it withers. ("Nihol" = sapling.) This pack is the plan for a 30-second launch promo.
+Nihol is a Telegram mini app for focus and productivity: start a session, a sapling grows while you stay off your phone, break the session and it withers. ("Nihol" = sapling, pronounced "Nahol".) This pack is the plan for the launch promo.
+
+Status: **Tier A rendered on 2026-10-14.** 1080×1920, about 34 s, English narration, built from the author's screen recordings (in `nihol/footage/`), two illustrated stills and the bot's avatar. Spend: about 8 credits.
 
 Visual rule: all characters, the sapling, and the UI mockups are original. The focus-timer mechanic is a concept, not a brand, so the video never copies another app's art, mascot, colours or wording.
 
@@ -26,11 +28,11 @@ One sitting, one tree. The video follows a single student from distraction to a 
 | Beat | Time | Narration | On screen |
 |---|---|---|---|
 | 1 Hook | 0-5 | "Your phone is the reason your to-do list is still a list." | Illustration: student at desk, phone buzzing, a dozen notification bubbles crowding the frame. Hard cut to black. |
-| 2 Reveal | 5-10 | "Meet Nihol. A tiny sapling that grows every minute you stay focused." | Real app screen: the home view with the sapling. Phone frame in the centre, soft leaf-green glow. Logo top-left. |
-| 3 Mechanic | 10-15 | "Pick a task. Set the time. Put the phone down." | Real app screens, three quick taps: task entry, timer dial, start button. Screen-recorded, each held 1.5 s. |
-| 4 Stakes | 15-20 | "Leave early, and your sapling wilts. Stay, and it grows." | Split frame: left, the sapling drooping as a thumb reaches for the phone; right, the sapling in full leaf. Illustration over app UI. |
-| 5 Payoff | 20-25 | "One session is a sapling. A week is a garden." | Real app screen: the garden or history view with a week of trees. If the app has streaks or stats, show them here. |
-| 6 CTA | 25-30 | "Nihol. Inside Telegram. No download, no sign-up." | App icon, the Telegram handle, big "Open in Telegram" button. Text card: "t.me/<bot> — free". |
+| 2 Reveal | 5-10 | "This is Nihol. Plant a sapling inside Telegram, and it grows every minute you stay focused." | Real app screen: the home view with the sapling. Phone frame in the centre, soft leaf-green glow. Logo top-left. |
+| 3 Mechanic | 10-15 | "Set the time. Pick your plant. Hit Plant, and put the phone down." | Real app screens, three quick taps: task entry, timer dial, start button. Screen-recorded, each held 1.5 s. |
+| 4 Stakes | 15-20 | "Leave the app, and your sapling dies. Stay, and one hour becomes a full tree." | Split frame: left, the sapling drooping as a thumb reaches for the phone; right, the sapling in full leaf. Illustration over app UI. |
+| 5 Payoff | 20-25 | "Every session goes into your garden. Daily streaks unlock rare plants." | Real app screen: the garden or history view with a week of trees. If the app has streaks or stats, show them here. |
+| 6 CTA | 25-30 | "That's Nihol. Inside Telegram. No download, no sign-up." | App icon, the Telegram handle, big "Open in Telegram" button. Text card: "t.me/<bot> — free". |
 
 Narration total is about 60 words, which fits 30 s at a relaxed pace.
 
@@ -86,3 +88,14 @@ Tier A is a genuinely good promo because the real app does the heavy lifting. Mo
 - "Forty minutes. One tree. Zero scrolling."
 - "The to-do app that punishes you with a dead plant."
 - "You don't need another app. You need to put this one down."
+
+## 10. As built
+
+- Palette switched to the brand: deep green background, orange accents, mint and cream, taken from the bot avatar.
+- Phone frame: 540×1172 rounded device with bezel and shadow; the 384×834 recordings scale into it cleanly.
+- Footage moments used: timer screen (rec2 24.0 s), dial / plant picker / Plant button (rec1 15.2, 25.4, 32.6 s), garden (rec2 9.6 s), streak rewards (rec1 25.6 s). The two recordings are never joined end to end; each moment sits in its own beat with a crossfade.
+- Narration spelled "Nahol" for the voice engine so the name is pronounced with the short first vowel; on-screen text keeps "Nihol".
+- Beat lengths are derived from each trimmed narration line plus 0.55 s, so lines never overlap; beats crossfade over 0.3 s.
+- Build script: `build.py` in the edit sandbox (re-creatable from this pack). Inputs: rec1.mp4, rec2.mp4, s1.png, s4.png, avatar.jpg, vo1-6.wav.
+
+Known limits: the onboarding tooltips ("Skip / Next") are visible in some app shots because they are in the recording. A re-record with the guide dismissed removes them. The square 1:1 cut was not produced.
