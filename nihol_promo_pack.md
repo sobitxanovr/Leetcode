@@ -94,7 +94,7 @@ Tier A is a genuinely good promo because the real app does the heavy lifting. Mo
 - Palette switched to the brand: deep green background, orange accents, mint and cream, taken from the bot avatar.
 - Phone frame: 540×1172 rounded device with bezel and shadow; the 384×834 recordings scale into it cleanly.
 - Footage moments used: timer screen (rec2 24.0 s), dial / plant picker / Plant button (rec1 15.2, 25.4, 32.6 s), garden (rec2 9.6 s), streak rewards (rec1 25.6 s). The two recordings are never joined end to end; each moment sits in its own beat with a crossfade.
-- Narration spelled "Nihhol" for the voice engine; the author picked that take by ear from three spellings. On-screen text keeps "Nihol". The closing take had a 3-second internal pause, which was cut out in the edit.
+- Narration: the author picked one take of the closing line by ear. Because the voice engine pronounces the same spelling differently between takes, the name in line 2 is spliced in from that approved take rather than regenerated. On-screen text keeps "Nihol". The closing take had a 3-second internal pause, which was cut out in the edit.
 - Beat lengths are derived from each trimmed narration line plus 0.55 s, so lines never overlap; beats crossfade over 0.3 s.
 - Build script: `build.py` in the edit sandbox (re-creatable from this pack). Inputs: rec1.mp4, rec2.mp4, s1.png, s4.png, avatar.jpg, vo1-6.wav.
 
