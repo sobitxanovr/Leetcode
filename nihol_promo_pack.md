@@ -119,3 +119,15 @@ Transitions: iris open, slide left, fade, slide up, fade, iris open. Every phone
 Music: a synthesised pad with a light pluck line, placeholder only, mixed at about -19 LUFS. Replace with a licensed track before publishing. No real-world impact claims anywhere, by the author's instruction.
 
 Build script: `build_wordless.py` in the edit sandbox.
+
+## 12. Promo stills
+
+Built 2026-10-14 in the edit sandbox, 0 credits. Brand green radial background, the bot avatar as logo with "NIHOL" wordmark, headline "Put the phone aside." with sub-line "Your tree grows while you study.", and the real app screen (dial at 60:00 with the full pomegranate tree, from `nihol/footage/rec3.mp4`) in a rounded phone frame that bleeds off the bottom edge. No link on the image, by the author's instruction.
+
+| Size | Use | Phone width |
+|---|---|---|
+| 1080×1350 (4:5) | Telegram or Instagram post | 480 px, top at 430 |
+| 1080×1080 (1:1) | channel preview, ads | 440 px, top at 360 |
+| 1080×1920 (9:16) | story | 540 px, top at 620, fully visible |
+
+Script: `promo_img.sh` in the sandbox builds the stage (background, shadow, bezel, masked screen); the text is layered with ImageMagick annotate in Montserrat ExtraBold.
