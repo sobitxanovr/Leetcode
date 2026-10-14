@@ -1,7 +1,7 @@
 # "3 Things You Shouldn't Do as an IELTS Student" — Day 13
 ## Production pack for a faceless YouTube video (Seedance 2.0, 1080p, 16:9)
 
-Status: **not rendered yet.** The connected video account holds 10 credits on the free plan. One 10-second Seedance 2.0 clip at 1080p costs 120 credits, so nothing below has been generated. Everything here is ready to run unchanged once the account is topped up.
+Status: **rendered on 2026-10-14 as a hybrid.** Blocks 1-3 are Seedance 2.0 motion clips (720p fast, upscaled). Blocks 4-9 are generated stills with zoom-and-pan cuts. One narrator voice, burned captions, title and rule cards. Total spend about 95 credits including the test pass. The Uzbek punchline cards were dropped at the author's request.
 
 ---
 
@@ -31,12 +31,12 @@ Seedance 2.0 takes these as `image_references` (role) on every clip, order: loca
 | Block | Line |
 |---|---|
 | 1 | Day thirteen. Three things you should never do as an IELTS student. And number one got a whole class a band five last month. |
-| 2 | The question says "discuss both views." You hear "tell me what you think," and you start a rant. The examiner asked for a debate. You delivered a monologue. |
+| 2 | The question says, discuss both views. You hear, tell me what you think, and you start a rant. They asked for a debate. You gave a monologue. |
 | 3 | Both views need a fair, developed paragraph. Your opinion, if they even ask for it, is the guest at this party. Not the host. |
 | 4 | Number two. Reading. True, False, Not Given. And here comes common sense to ruin your score. |
-| 5 | "Coffee ruins sleep, everyone knows that!" Maybe. But if the passage never says it, the answer is Not Given. Not True. |
+| 5 | Coffee ruins sleep, everyone knows that. Maybe. But if the passage never says it, it's Not Given, not True. |
 | 6 | You are being tested on the text in front of you. Not on your life, not on your opinions, not on what your uncle told you. |
-| 7 | Number three. You only practise the skill you already love. Reading, eight point oh. Writing, untouched since March. |
+| 7 | Number three. You only practise the skill you love. Reading, eight. Writing, untouched since March. |
 | 8 | Your overall band is the average of all four. The one skill you ignore quietly drags the whole score down. |
 | 9 | Fix the weak one, not the fun one. See you on day fourteen. And if a friend keeps ranting in Task Two, send them this. |
 
@@ -44,11 +44,8 @@ Seedance 2.0 takes these as `image_references` (role) on every clip, order: loca
 
 - 0:08  🚫 3 THINGS YOU SHOULDN'T DO AS AN IELTS STUDENT — DAY 13
 - 0:12  1. Don't write a one-sided rant when it says "Discuss both views"
-- 0:28  Ikkala tomonni eshitmay hukm chiqarish sudyaga ham yarashmaydi, Writing Task 2 ga ham 😁
 - 0:32  2. Don't use "common sense" in True / False / Not Given
-- 0:58  Hayotda to'g'ri bo'lishi matnda yozilgan degani emas!
 - 1:02  3. Don't practise only the skill you're already good at
-- 1:18  Mashinani bir baloni teshik bo'lsa uzoqqa bormaydi 🚗
 - 1:26  Day 14 → tomorrow. Subscribe.
 
 ## 5. Seedance 2.0 prompts (one 10-second clip per block, five hard-cut shots each)
@@ -112,3 +109,14 @@ Dilnoza mid-rant at a microphone, examiner facepalming behind her, big red "X". 
 Title: 3 Things You Shouldn't Do as an IELTS Student (Day 13) — Writing Task 2, T/F/NG, Band Score
 
 Description: Day 13 of the series. Today: why "discuss both views" is not an invitation to rant, why common sense is the enemy of True/False/Not Given, and why your weakest skill decides your overall band. New video every day. #IELTS #IELTSWriting #IELTSReading
+
+## 10. Hybrid recipe actually used (repeatable per episode)
+
+1. Reference images once per series: student, examiner, exam hall (3 × 1.25 credits).
+2. Motion blocks only where motion earns its cost. Here: blocks 1-3 (hook, rant, guest-not-host) at 720p fast, 25 credits each.
+3. One still per remaining block (1.25 credits each), referenced to the student sheet, then three virtual cuts per still: slow push on the full frame, lateral pan at 1.6x, push on a corner region.
+4. Narration lines kept under 9.9 s of speech. Lines that run over are rewritten shorter, never sped up. Day 13 needed three takes of line 5 and two of lines 2 and 7.
+5. Cards: title at 0:01, each rule card at the start of its first block, outro card at 1:26. Captions burned at the top so they never cover the cards.
+6. Shorts cut: first 30 s, 1080×1920, blurred letterbox.
+
+Per-episode cost on this recipe: about 90 credits with three motion blocks, about 15 credits with none.
